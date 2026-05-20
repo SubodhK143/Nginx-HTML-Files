@@ -1,0 +1,26 @@
+sudo tee /var/www/site1/index.html > /dev/null <<EOF
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website 1</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: lime;
+            text-align: center;
+            padding-top: 200px;
+            font-family: Arial;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Website 1</h1>
+    <h3>Running on Port 8081</h3>
+
+</body>
+</html>
+EOF

@@ -1,0 +1,26 @@
+sudo tee /var/www/site3/index.html > /dev/null <<EOF
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website 3</title>
+
+    <style>
+        body {
+            background: linear-gradient(to right, purple, cyan);
+            color: white;
+            text-align: center;
+            padding-top: 200px;
+            font-family: Arial;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Website 3</h1>
+    <h3>Running on Port 8083</h3>
+
+</body>
+</html>
+EOF
